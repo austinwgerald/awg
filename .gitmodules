@@ -1,0 +1,3 @@
+[submodule "projects/ttt"]
+	path = projects/ttt
+	url = https://github.com/austinwgerald/tic-tac-toe
