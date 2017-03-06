@@ -1,34 +1,45 @@
 import React from 'react';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AppBar from 'material-ui/AppBar';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {deepOrange500} from 'material-ui/styles/colors';
-
-const styles = {
-  container: {
-    textAlign: 'center',
-
-  },
-};
-
-const muiTheme = getMuiTheme({
-  palette: {
-    accent1Color: deepOrange500,
-  },
-});
+import './header.css';
+import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
+import {Icon} from 'react-fa'
 
 export default class Header extends React.Component {
 
   render() {
     return (
-      <MuiThemeProvider muiTheme={muiTheme}>
-        <div style={styles.container}>
-          <AppBar
-           title="Title"
-           iconClassNameRight="muidocs-icon-navigation-expand-more"
-          />
-        </div>
-      </MuiThemeProvider>
+      <Navbar inverse collapseOnSelect>
+          <Navbar.Header>
+              <Navbar.Brand>
+                  <a href="#">Home</a>
+              </Navbar.Brand>
+              <Navbar.Toggle />
+          </Navbar.Header>
+          <Navbar.Collapse>
+              <Nav>
+                  <NavItem eventKey={1} href="#">Link</NavItem>
+                  <NavItem eventKey={2} href="#">Link</NavItem>
+                  <NavDropdown eventKey={3} title="Projects" id="basic-nav-dropdown">
+                      <MenuItem eventKey={3.1}>Tic-Tac-Toe</MenuItem>
+                      <MenuItem divider />
+                      <MenuItem eventKey={3.2}>This site (meta)</MenuItem>
+                  </NavDropdown>
+              </Nav>
+              <Nav pullRight>
+                  <NavItem eventKey={1} href="#">
+                    <Icon size="2x" name="github" />
+                  </NavItem>
+                  <NavItem eventKey={2} href="#">
+                    <Icon size="2x" name="linkedin" />
+                  </NavItem>
+                  <NavItem eventKey={3} href="#">
+                    <Icon size="2x" name="twitter" />
+                  </NavItem>
+                  <NavItem eventKey={4} href="#">
+                    <Icon size="2x" name="instagram" />
+                  </NavItem>
+              </Nav>
+          </Navbar.Collapse>
+      </Navbar>
     );
   }
 }
