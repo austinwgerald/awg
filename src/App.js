@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
-import logo from './footer/logo.svg';
 import './App.css';
 import Header from './header/header';
+import About from './about/about';
+import Experience from './experience/experience';
 import Footer from './footer/footer';
-import {Icon} from 'react-fa'
+import {Jumbotron} from 'react-bootstrap'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div >
+        <div className="App-header">
           <Header />
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+            <Jumbotron>
+              <h1>AUSTIN W GERALD</h1>
+              <p>Software Developer</p>
+            </Jumbotron>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
 
-        <Icon spin name="spinner" />
-        
+        <About />
+        <Experience />
+
         <Footer />
       </div>
     );
