@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
-import {Icon} from 'react-fa'
+import {Icon} from 'react-fa';
 
 export default class Header extends React.Component {
 

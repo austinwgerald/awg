@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './footer.css';
+import {Icon} from 'react-fa';
 
 export default class Footer extends React.Component {
 
@@ -9,7 +10,8 @@ export default class Footer extends React.Component {
       <div className="Footer">
         <div className="Footer-content">
           <p>
-            Austin Gerald - 2017
+            <Icon size="xs" name="copyright" />
+            &nbsp; Austin Gerald 2017
             <br />
             Created using ReactJS
             <img src={logo} className="Footer-logo" alt="logo" />

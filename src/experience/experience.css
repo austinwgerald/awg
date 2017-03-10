@@ -1,3 +1,8 @@
 .Experience {
   text-align: left;
 }
+
+.well {
+  maxWidth: 1000;
+  margin: '0 auto 10px';
+}
