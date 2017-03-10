@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
       <div className="Footer">
         <div className="Footer-content">
           <p>
-            <Icon size="xs" name="copyright" />
+            <Icon name="copyright" />
             &nbsp; Austin Gerald 2017
             <br />
             Created using ReactJS

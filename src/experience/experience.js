@@ -1,12 +1,16 @@
 import React from 'react';
 import './experience.css';
-import {Grid, Row, Col, Panel, Button} from 'react-bootstrap';
+import {Grid, Row, Col, Panel} from 'react-bootstrap';
 
 export default class Experience extends React.Component {
   render() {
 
     const cspireHeader = (
-      <h3><strong>C&nbsp;Spire</strong></h3>
+      <h3>
+        <strong>
+          C&nbsp;Spire - Software Developer I
+        </strong>
+      </h3>
     );
 
     return (
@@ -24,12 +28,24 @@ export default class Experience extends React.Component {
                   </Col>
                   <Col xs={12} md={9}>
                     <Panel header={cspireHeader}>
-                      <p>
-                      Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
+                      <ul>
+                        <li>Application Development using <strong>AngularJS</strong> and <strong>Spring MVC</strong> </li>
+                        <li>Create and maintain <strong>Java</strong> REST Services</li>
+                        <li>Development within and configuration of <strong>Salesforce</strong> CRM application</li>
+                        <li>Agile and Waterfall Development</li>
+                        <li>Provide extensive application lifetime support and user support</li>
+                        <li>Notable Projects:</li>
+                          <ul>
+                            <li>Implimentation of <strong>Credit Card payments</strong> within POS application</li>
+                            <li>
+                              Extensive customization of <strong>Salesforce</strong> application to accomidate <strong>Business Process Automation</strong>
+                            </li>
+                          </ul>
+                      </ul>
                     </Panel>
                   </Col>
               </Row>
+            {/*
               <Row className="show-grid">
                   <Col xs={12} md={3}>
                   <strong>Click to see my Resum&egrave;</strong>
@@ -41,8 +57,8 @@ export default class Experience extends React.Component {
                     </div>
                   </Col>
               </Row>
+              */}
           </Grid>
-
       </div>
     );
   }
