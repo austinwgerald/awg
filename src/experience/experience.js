@@ -31,10 +31,19 @@ export default class Experience extends React.Component {
                       <ul>
                         <li>Application Development using <strong>AngularJS</strong> and <strong>Spring MVC</strong> </li>
                         <li>Create and maintain <strong>Java</strong> REST Services</li>
-                        <li>Development within and configuration of <strong>Salesforce</strong> CRM application</li>
+                        <li>Development and configuration of <strong>Salesforce</strong> CRM application</li>
                         <li>Agile and Waterfall Development</li>
                         <li>Provide extensive application lifetime support and user support</li>
-                        <li>Notable Projects:</li>
+                        <br />
+                        <li>Notable <strong>Technologies</strong>:</li>
+                          <ul>
+                            <li>Git</li>
+                            <li>Tomcat and Apache servers</li>
+                            <li>Intellij IDEs</li>
+                            <li>Node/ npm</li>
+                          </ul>
+                        <br />
+                        <li>Notable <strong>Projects</strong>:</li>
                           <ul>
                             <li>Implimentation of <strong>Credit Card payments</strong> within POS application</li>
                             <li>
