@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
+import {Navbar, Nav, NavDropdown, MenuItem} from 'react-bootstrap';
 import {Icon} from 'react-fa';
 
 export default class Header extends React.Component {
@@ -22,22 +22,22 @@ export default class Header extends React.Component {
                       </NavDropdown>
                   </Nav>
                   <Nav pullRight>
-                    <Navbar.Text>
+                    <Navbar.Text >
                         <Navbar.Link href="https://github.com/austinwgerald" target="_blank">
                           <Icon size="2x" name="github" />
                         </Navbar.Link>
                     </Navbar.Text>
-                    <Navbar.Text>
+                    <Navbar.Text >
                         <Navbar.Link href="https://www.linkedin.com/in/austinwgerald" target="_blank">
                           <Icon size="2x" name="linkedin" />
                         </Navbar.Link>
                     </Navbar.Text>
-                    <Navbar.Text>
+                    <Navbar.Text >
                         <Navbar.Link href="https://twitter.com/austinwgerald" target="_blank">
                           <Icon size="2x" name="twitter" />
                         </Navbar.Link>
                     </Navbar.Text>
-                    <Navbar.Text>
+                    <Navbar.Text >
                         <Navbar.Link href="https://www.instagram.com/austinwgerald/" target="_blank">
                           <Icon size="2x" name="instagram" />
                         </Navbar.Link>
