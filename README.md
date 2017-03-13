@@ -11,3 +11,7 @@ Dependencies include:
     * ```npm install react-tap-event-plugin```
 * [React Bootstrap](https://www.npmjs.com/package/react-bootstrap)
   * ```npm install react-bootstrap```
+* [Bootstrap](https://www.npmjs.com/package/bootstrap)
+  * ```npm install bootstrap```
+* [React Font Awesome](https://www.npmjs.com/package/react-fa)
+    * ```npm install react react-fa```
