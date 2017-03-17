@@ -34,7 +34,7 @@ export default class About extends React.Component {
                   <Col xs={12} md={9}>
                   <p>
                       I&apos;m an <strong>old soul</strong> who enjoys music, podcasts, pop culture, philosophy, news,
-                      politics, and being a part of new &amp; wonderful things. <strong>I love seeing the world, and all its nuances.</strong>
+                      politics, and being a part of new &amp; wonderful things. <strong>I love seeing the world and all its nuances.</strong>
                   </p>
                   </Col>
               </Row>
