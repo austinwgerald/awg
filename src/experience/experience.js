@@ -8,7 +8,10 @@ export default class Experience extends React.Component {
     const cspireHeader = (
       <h3>
         <strong>
-          C&nbsp;Spire - Software Developer I
+          <a href="http://www.cspire.com/company_info/about/more_info.jsp" target="_blank">
+            C&nbsp;Spire&nbsp;
+          </a>
+           - Software Developer I
         </strong>
       </h3>
     );

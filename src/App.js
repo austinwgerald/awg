@@ -13,7 +13,7 @@ class App extends Component {
         <div className="App-header">
           <Header />
             <Jumbotron>
-              <h1>AUSTIN W GERALD</h1>
+              <h1>AUSTIN W. GERALD</h1>
               <p>Software Developer</p>
             </Jumbotron>
         </div>

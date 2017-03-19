@@ -21,7 +21,9 @@ export default class About extends React.Component {
                   <p>
                       I enjoy finding elegant solutions to technical problems.
                       <br/>
-                      I graduated Cum Laude with a <strong>Bachelor of Science</strong> in <strong>Software Engineering</strong> from Mississippi State University in <strong>May 2016</strong>.
+                      I graduated Cum Laude with a <strong>Bachelor of Science</strong> in <strong>Software Engineering</strong> from
+                      <a href="http://www.msstate.edu/" target="_blank" id="msu">&nbsp;Mississippi State University&nbsp;</a>
+                      in <strong>May 2016</strong>.
                       <br/>
                       <br/>
                   </p>
