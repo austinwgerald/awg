@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
             <Icon name="copyright" />
             &nbsp; Austin Gerald 2017
             <br />
-            Created using ReactJS
+            Created using <a href="https://facebook.github.io/react/" id="reactLink"> React </a>
             <img src={logo} className="Footer-logo" alt="logo" />
           </p>
         </div>

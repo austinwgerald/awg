@@ -15,7 +15,7 @@ export default class About extends React.Component {
               </Row>
               <Row className="show-grid">
                   <Col xs={12} md={3}>
-                  <strong>I&apos;m a Front End Web Developer from Ridgeland, MS.</strong>
+                  <strong>Technically...</strong>
                   </Col>
                   <Col xs={12} md={9}>
                   <p>
@@ -41,7 +41,7 @@ export default class About extends React.Component {
                   </Col>
               </Row>
           </Grid>
-
+        <br/>
       </div>
     );
   }

@@ -14,12 +14,12 @@ class App extends Component {
           <Header />
             <Jumbotron>
               <h1>AUSTIN W. GERALD</h1>
-              <p>Software Developer</p>
+              <p>Front End Web Developer from Ridgeland, MS.</p>
             </Jumbotron>
         </div>
 
-        <About />
         <Experience />
+        <About />
 
         <Footer />
       </div>
